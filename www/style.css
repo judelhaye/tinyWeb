@@ -1,0 +1,43 @@
+html, body{
+    color: #333;
+    background: #707070;
+}
+body{
+    background: -webkit-linear-gradient(left, rgba(255,255,255,.2) 0%, rgba(205,230,255,.8) 8%, rgba(205,230,255,.8) 75%, rgba(255,255,255,.1) 100%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,.2) 0%, rgba(205,230,255,.8) 8%, rgba(205,230,255,.8) 75%, rgba(255,255,255,.1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,.2) 0%, rgba(205,230,255,.8) 8%, rgba(205,230,255,.8) 75%, rgba(255,255,255,.1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,.2) 3%, rgba(183,219,255,.8) 8%, rgba(183,219,255,.6) 78%, rgba(255,255,255,.1) 100%);
+    background: linear-gradient(left, rgba(255,255,255,.2) 3%, rgba(205,230,255,.8) 8%, rgba(205,230,255,.8) 78%, rgba(255,255,255,.1) 100%);
+    max-width: 1100px;
+    margin:  auto;
+    padding: 15px 90px;
+    border: 1px solid transparent;
+}
+
+div{
+padding: 10px 30px 40px;
+margin-bottom: 10px;
+background: #FFF;
+border-radius: 10px 10px 10px 10px;
+}
+
+#titre {
+    float: left;
+}
+
+img{
+    float: right;
+    padding: 10px;
+    margin: 20px;
+background: #FFF;
+border-radius: 40px 40px 40px 40px;
+}
+
+
+#presentation{
+    clear: both;
+}
+
+#liens{
+    float: left;
+}
